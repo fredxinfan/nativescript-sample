@@ -1,0 +1,11 @@
+<stack-layout>
+  <scroll-view width="100%">
+    <stack-layout>
+        <label text="Tap the button" class="title"></label>
+
+        <button text="TAP" (tap)="onTap()"></button>
+
+        <label [text]="message()" class="message" textWrap="true"></label>
+    </stack-layout>
+  </scroll-view>
+</stack-layout>
