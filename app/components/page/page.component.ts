@@ -33,7 +33,7 @@ export class PageComponent implements OnInit {
             path: 'components/h1/h1.component',
             name: 'H1Component'
         });
-        // mainContainer.addChild(h1);
+        mainContainer.addChild(h1);
       }
     }
   }

@@ -1,2 +1,1 @@
 # nativescript-sample
-# nativescript-sample
